@@ -1,75 +1,20 @@
-# Nuxt Minimal Starter
+## 🖥 프로젝트 소개
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- 주제 : Nuxt 3 Template WEB
+- 팀명 : 개인
+- 인원 : 1명
+- 개발 기간 : 2025.05 ~ (진행중)
 
-## Setup
+## ⚙ 개발 환경
 
-Make sure to install dependencies:
+- Web : TypeScript, Vue (v3.5.13), Nuxt (v3.16.2)
+- Server : Node.js (v24.0.2)
+- Code Editor : Cursor
 
-```bash
-# npm
-npm install
+## 🔍 주요 기능
 
-# pnpm
-pnpm install
+-
 
-# yarn
-yarn install
+## 🔁 프로젝트 설치 및 실행
 
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+-

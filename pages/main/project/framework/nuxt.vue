@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import markdownContent from '~/README.md?raw';
+import markdownContent from '~/public/markdown/Project/Framework/Nuxt.md?raw';
 </script>
 
 <template>

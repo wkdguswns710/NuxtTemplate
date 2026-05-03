@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <h1>css page</h1>
+    <h1>test page</h1>
   </div>
 </template>
 

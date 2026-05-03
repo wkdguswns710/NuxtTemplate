@@ -58,5 +58,39 @@ export const utils = {
     }
 
     return false;
+  },
+  /**
+   * 객체 깊은 복사
+   * @param obj any
+   * @return obj any
+   */
+  deepCopy<T>(obj: T): T {
+    // 방법 1
+    if (obj === null || typeof obj !== 'object') {
+      return obj;
+    }
+
+    if (obj instanceof Array) {
+      const clone = [] as any[];
+      for (let i = 0; i < obj.length; i++) {
+        clone[i] = utils.deepCopy(obj[i]);
+      }
+      return clone as unknown as T;
+    }
+
+    if (obj instanceof Object) {
+      const clone = {} as { [key: string]: any };
+      for (const key in obj) {
+        if (obj.hasOwnProperty(key)) {
+          clone[key] = utils.deepCopy((obj as { [key: string]: any })[key]);
+        }
+      }
+      return clone as T;
+    }
+
+    // 방법 2.
+    // 속도가 느리고 깊은 복사가 불가능한 타입이 꽤 많다.
+    let clone = JSON.parse(JSON.stringify(obj));
+    return clone as T;
   }
 };

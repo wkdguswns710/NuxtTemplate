@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import markdownContent from '~/README.md?raw';
+import markdownContent from '~/public/markdown/Project/Release/CICD.md?raw';
 </script>
 
 <template>

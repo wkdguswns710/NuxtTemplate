@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <HeaderBar></HeaderBar>
+  <NavigationBar></NavigationBar>
   <slot />
 </template>
 
